@@ -1,0 +1,36 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Learning Center",
+            "summary": "A personal collection of learning material including flashcards, a resource catalog and a place to create original content.",
+            "tech": [
+                "JavaScript", "React", "Express", "MongoDB", "Reactstrap"
+            ],
+            "heroku": "#",
+            "image": "../comp-style/imgs/learn-center.png"
+        },
+        {
+            "id": 2,
+            "title": "Gear Closet",
+            "summary": "The gearhead's organizational tool. Create a database for all your gear. Make lists for your trips: 3 day car camping needs vs 1 week backpacking.Build out a list for every occasion and you'll never forget those necessities.",
+            "tech": [
+                "JavaScript", "React", "Express", "MongoDB"
+            ],
+            "heroku": "https://gear-closet-app.herokuapp.com/",
+            "image": "#"
+        },
+        {
+            "id": 3,
+            "title": "Wedding Website",
+            "summary": "The website I created for my wedding that contained all the weddinginformation, a photo gallery and with the use of Google Forms, a place to RSVP. Besides being a resource for the wedding, this site challenged my creative/artistic side.",
+            "tech": [
+                "HTML/CSS", "JavaScript"
+            ],
+            "heroku": "https://lefartins.herokuapp.com/",
+            "image": "../comp-style/imgs/learn-center.png"
+        }
+    ]
+
+
+}

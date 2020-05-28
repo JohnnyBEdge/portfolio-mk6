@@ -1,0 +1,13 @@
+#nav_container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    position: relative;
+    margin: 15px;
+};
+
+#nav_container a {
+    font-size: 25px;
+    color: var(--brown);
+    text-decoration: none
+};

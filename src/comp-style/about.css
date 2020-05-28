@@ -1,0 +1,63 @@
+#profile_container {
+    width: 900px;
+    height: 300px;
+    /* border: solid black 1px; */
+    /* background-color: var(--beige); */
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 40px;
+
+}
+
+#author {
+    text-align: center;
+    margin: 10px;
+    font-size: 40px;
+}
+
+img {
+    border-radius: 50%;
+    height: 275px;
+    width: 230px;
+    float: left;
+    shape-outside: circle();
+    margin: 10px 20px 30px 20px;
+}
+
+#profile_summary {
+    margin: 10px;
+    padding: 0;
+    text-align: left;
+}
+
+#tech_container {
+    width: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom:50px;
+}
+
+#tech_container ul {
+    height: 70px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tech_container li {
+    list-style: none;
+    margin: 5px;
+    color: var(--brown);
+}
+
+#resume {
+    font-weight: bold;
+    align-self: center;
+}
+
+h2, h4 {
+    color: var(--green)
+}

@@ -1,0 +1,30 @@
+#contact_container {
+    background-color: var(--brown);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact_container ul{
+    width: 100%;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+#contact_container p, li {
+    color: var(--khaki);
+}
+
+#email {
+    padding-top: 10px;
+}
+
+.icon {
+    width: 25px;
+    height: auto;
+}

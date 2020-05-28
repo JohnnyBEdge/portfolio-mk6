@@ -1,0 +1,33 @@
+#welcome {
+    background-image: url('./imgs/vietnam.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+#sum_container {
+    position: relative;
+    top:60%;
+    align-self: center;
+    
+}
+
+#welcome h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: var(--beige);
+}
+a {
+    text-decoration: none;
+} 
+#sum_container p{
+    color: var(--beige);
+
+}
+
+
