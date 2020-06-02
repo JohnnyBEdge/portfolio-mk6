@@ -18,7 +18,7 @@ const Projects = () => {
 <div id="project_4" className="project">
                     <div className="proj proj-info">
                         <p className="proj-title">Shop Inventory</p>
-                        <p className="proj-desc">A pseudo discount shopping site that is only available to members. Utilizes local storage, auth tokens and account creation with admin access and priviledges.</p>
+                        <p className="proj-desc">A pseudo discount shopping site that is only available to members. Utilizes local storage, auth tokens and account creation with admin access and privileges.</p>
                         <div className="tech-list">
                             <p className="tech-title">Tech</p>
                                 <ul>
