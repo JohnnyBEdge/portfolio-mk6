@@ -2,38 +2,11 @@ import React from 'react';
 import '../comp-style/projects.css';
 import LearnCenter from '../comp-style/imgs/learn-center.png';
 import Wedding from '../comp-style/imgs/wedding.png';
-import data from '../data/project-data.json';
-import GearCloset from '../comp-style/imgs/gear-closet.png'
+
+import GearCloset from '../comp-style/imgs/gear-closet.png';
+import ShopInven from '../comp-style/imgs/shop-inven.png'
 
 const Projects = () => {
-    let index = 0;
-    // const project = data.map((proj) => {
-        
-    //     return (<div id="project_${proj.id}" className="project">
-    //                 <div className="proj proj-img">
-    //                     <div className="img-frame">
-    //                         <img src={proj.image} alt="Project screenshot"/>
-    //                     </div>
-    //                 </div>
-    //                 <div className="proj proj-info">
-    //                     <p className="proj-title">{proj.title}</p>
-    //                     <p className="proj-desc">{proj.summary}</p>
-    //                     <div className="tech-list">
-    //                     <p className="tech-title">Tech</p>
-    //                         <ul>
-    //                             <li>Javascript</li>
-    //                             <li>React</li>
-    //                             <li>Express</li>
-    //                             <li>MongoDB</li>
-    //                             <li>Reactstrap</li>
-    //                         </ul>
-    //                     </div>
-    //                     <button className="view-btn"><a href={proj.heroku}>View Project</a></button>
-
-    //                 </div>
-    //             </div>)
-    // })
-
     return (
 
         <>
@@ -41,6 +14,30 @@ const Projects = () => {
 <div className="seperator"></div> 
                 <h2>Projects</h2>
 <div className="seperator"></div> 
+
+<div id="project_4" className="project">
+                    <div className="proj proj-info">
+                        <p className="proj-title">Shop Inventory</p>
+                        <p className="proj-desc">A pseudo discount shopping site that is only available to members. Utilizes local storage, auth tokens and account creation with admin access and priviledges.</p>
+                        <div className="tech-list">
+                            <p className="tech-title">Tech</p>
+                                <ul>
+                                    <li>Javascript</li>
+                                    <li>React</li>
+                                    <li>Express</li>
+                                    <li>MongoDB</li>
+                                </ul>
+                        </div>
+                        <button className="view-btn"><a href={"#"}>Coming soon</a></button>
+                    </div>
+                    <div className="proj proj-img">
+                        <div className="img-frame">
+                            <img src={ShopInven} alt="Project screenshot"/>
+                        </div>
+                    </div>
+                </div>
+
+<div className="seperator"></div>
 
                 <div id="project_1" className="project">
                     <div className="proj proj-img">
@@ -61,7 +58,7 @@ const Projects = () => {
                                 <li>Reactstrap</li>
                             </ul>
                         </div>
-                        <button className="view-btn"><a href={"http://www.google.com"}>View Project</a></button>
+                        <button className="view-btn"><a href={"https://learning-center.herokuapp.com/"}>View Project</a></button>
 
                     </div>
                 </div>
@@ -95,7 +92,7 @@ const Projects = () => {
 
 
 
-                <div id="project_2" className="project">
+                <div id="project_3" className="project">
                     <div className="proj proj-img">
                         <div className="img-frame">
                             <img src={Wedding} alt="Project screenshot"/>
