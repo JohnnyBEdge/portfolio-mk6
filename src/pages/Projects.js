@@ -2,8 +2,7 @@ import React from 'react';
 import '../comp-style/projects.css';
 import LearnCenter from '../comp-style/imgs/learn-center.png';
 import Wedding from '../comp-style/imgs/wedding.png';
-
-import GearCloset from '../comp-style/imgs/gear-closet.png';
+import Events from '../comp-style/imgs/events.png';
 import ShopInven from '../comp-style/imgs/shop-inven.png'
 
 const Projects = () => {
@@ -15,10 +14,10 @@ const Projects = () => {
                 <h2>Projects</h2>
 <div className="seperator"></div> 
 
-<div id="project_4" className="project">
+<div id="project_2" className="project">
                     <div className="proj proj-info">
-                        <p className="proj-title">Shop Inventory</p>
-                        <p className="proj-desc">A pseudo discount shopping site that is only available to members. Utilizes local storage, auth tokens and account creation with admin access and privileges.</p>
+                        <p className="proj-title">Event Scheduler</p>
+                        <p className="proj-desc">An event tracker to help remind you what's on your schedule. Simple, easy to use, easy to navigate, designed for mobile-use.</p>
                         <div className="tech-list">
                             <p className="tech-title">Tech</p>
                                 <ul>
@@ -28,11 +27,11 @@ const Projects = () => {
                                     <li>MongoDB</li>
                                 </ul>
                         </div>
-                        <button className="view-btn"><a href={"#"}>Coming soon</a></button>
+                        <button className="view-btn"><a href={"https://events-scheduler.herokuapp.com/"}>View Project</a></button>
                     </div>
                     <div className="proj proj-img">
                         <div className="img-frame">
-                            <img src={ShopInven} alt="Project screenshot"/>
+                            <img src={Events} alt="Project screenshot"/>
                         </div>
                     </div>
                 </div>
@@ -64,12 +63,10 @@ const Projects = () => {
                 </div>
                 
 <div className="seperator"></div> 
-
-
-                <div id="project_2" className="project">
+                <div id="project_4" className="project">
                     <div className="proj proj-info">
-                        <p className="proj-title">Gear Closet</p>
-                        <p className="proj-desc">The gearhead's organizational tool. Create a database for all your gear. Make lists for your trips: 3 day car camping needs vs 1 week backpacking. Build out a list for every occasion and you'll never forget those necessities.</p>
+                        <p className="proj-title">Shop Inventory</p>
+                        <p className="proj-desc">A pseudo discount shopping site that is only available to members. Utilizes local storage, auth tokens and account creation with admin access and privileges.</p>
                         <div className="tech-list">
                             <p className="tech-title">Tech</p>
                                 <ul>
@@ -79,19 +76,16 @@ const Projects = () => {
                                     <li>MongoDB</li>
                                 </ul>
                         </div>
-                        <button className="view-btn"><a href={"https://gear-closet-app.herokuapp.com/"}>View Project</a></button>
+                        <button className="view-btn"><a href={"#"}>Coming soon</a></button>
                     </div>
                     <div className="proj proj-img">
                         <div className="img-frame">
-                            <img src={GearCloset} alt="Project screenshot"/>
+                            <img src={ShopInven} alt="Project screenshot"/>
                         </div>
                     </div>
-                </div>
+                </div>                
 
 <div className="seperator"></div>
-
-
-
                 <div id="project_3" className="project">
                     <div className="proj proj-img">
                         <div className="img-frame">
