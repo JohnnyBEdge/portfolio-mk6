@@ -102,7 +102,7 @@ const Projects = () => {
                                     <li>HTML/CSS</li>
                                 </ul>
                         </div>
-                        <button className="view-btn"><a href={"https://lefartins.herokuapp.com/"}>View Project</a></button>
+                        <button className="view-btn"><a href={"https://johnnybedge.github.io/weddingSite/"}>View Project</a></button>
                     </div>
                 </div>
 
