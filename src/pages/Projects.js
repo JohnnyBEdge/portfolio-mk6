@@ -66,7 +66,7 @@ const Projects = () => {
                 <div id="project_4" className="project">
                     <div className="proj proj-info">
                         <p className="proj-title">Shop Inventory</p>
-                        <p className="proj-desc">A pseudo discount shopping site that is only available to members. Utilizes local storage, auth tokens and account creation with admin access and privileges.</p>
+                        <p className="proj-desc">A pseudo members only shop. Utilizes local storage, auth tokens and account creation with admin access and privileges.</p>
                         <div className="tech-list">
                             <p className="tech-title">Tech</p>
                                 <ul>
@@ -76,7 +76,7 @@ const Projects = () => {
                                     <li>MongoDB</li>
                                 </ul>
                         </div>
-                        <button className="view-btn"><a href={"#"}>Coming soon</a></button>
+                        <button className="view-btn"><a href={"https://shop-ui-v2.netlify.app/#/"}>View Project</a></button>
                     </div>
                     <div className="proj proj-img">
                         <div className="img-frame">
