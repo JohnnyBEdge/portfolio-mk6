@@ -10,7 +10,7 @@ const Resume = () => {
         <div id="resume_container">
             <h2>Resume</h2>
             <p><Link to="/">(Return Home)</Link></p>
-            <iframe title="resume" src="/assets/resume-06-2020.pdf" width="80%" height="900px"></iframe>
+            <iframe title="resume" src="/assets/resume-08-2020.pdf" width="80%" height="900px"></iframe>
         </div>
     )
 };
