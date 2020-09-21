@@ -3,7 +3,8 @@ import '../comp-style/projects.css';
 import LearnCenter from '../comp-style/imgs/learn-center.png';
 import Wedding from '../comp-style/imgs/wedding.png';
 import Events from '../comp-style/imgs/events.png';
-import ShopInven from '../comp-style/imgs/shop-inven.png'
+import ShopInven from '../comp-style/imgs/shop-inven.png';
+import Solvay from '../comp-style/imgs/solvayPage.png'
 
 const Projects = () => {
     return (
@@ -12,6 +13,30 @@ const Projects = () => {
             <div id="projects_container" className="section">
 <div className="seperator"></div> 
                 <h2>Projects</h2>
+<div className="seperator"></div> 
+
+                <div id="project_5" className="project">
+                    <div className="proj proj-img">
+                        <div className="img-frame">
+                            <img src={Solvay} alt="Project screenshot"/>
+                        </div>
+                    </div>
+                    <div className="proj proj-info">
+                        <p className="proj-title">1927 Solvay Website</p>
+                        <p className="proj-desc">A website to showcase the scientists from the 1927 Solvay Conference. This was a fun side project to explore image mapping, push creativity and further practice with React. Because of the image mapping, this is best viewed through a desktop display.</p>
+                        <div className="tech-list">
+                        <p className="tech-title">Tech</p>
+                            <ul>
+                                <li>Javascript</li>
+                                <li>React</li>
+                                <li>Material UI</li>
+                            </ul>
+                        </div>
+                        <button className="view-btn"><a href={"https://1927solvay.netlify.app/"}>View Project</a></button>
+
+                    </div>
+                </div>
+                
 <div className="seperator"></div> 
 
 <div id="project_2" className="project">
@@ -102,7 +127,7 @@ const Projects = () => {
                                     <li>HTML/CSS</li>
                                 </ul>
                         </div>
-                        <button className="view-btn"><a href={"https://johnnybedge.github.io/weddingSite/"}>View Project</a></button>
+                        <button className="view-btn"><a href={"https://thelefartins.com/"}>View Project</a></button>
                     </div>
                 </div>
 

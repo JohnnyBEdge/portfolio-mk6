@@ -26,6 +26,7 @@ const About = () => {
                     <li>NodeJS</li>
                     <li>Express</li>
                     <li>MongoDB</li>
+                    <li>AWS in progress...</li>
                 </ul>
                 <p id="resume"><Link to="/resume">View my resume.</Link></p>
             </div>
