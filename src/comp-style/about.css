@@ -15,7 +15,7 @@
     font-size: 40px;
 }
 
-img {
+#proPic {
     border-radius: 50%;
     height: 275px;
     width: 230px;
@@ -60,4 +60,13 @@ img {
 
 h2, h4 {
     color: var(--green)
+}
+#badge {
+    margin: 0 auto;
+    padding: 10px;
+}
+#codewars{
+    margin: 0 auto;
+    padding: 0; 
+    height: 30px
 }
