@@ -23,7 +23,7 @@ const Projects = () => {
                     </div>
                     <div className="proj proj-info">
                         <p className="proj-title">1927 Solvay Website</p>
-                        <p className="proj-desc">A website to showcase the scientists from the 1927 Solvay Conference. This was a fun side project to explore image mapping, push creativity and further practice with React. Because of the image mapping, this is best viewed through a desktop display.</p>
+                        <p className="proj-desc">A retro-styled website, inspired by Steve Krug’s book, Don’t Make Me Think, to showcase the scientists from the 1927 Solvay Conference. This was a fun side project to apply concepts from the book while exploring image mapping and further practice with React, JavaScript and Material UI. Because of the image mapping, this is best viewed through a desktop display.</p>
                         <div className="tech-list">
                         <p className="tech-title">Tech</p>
                             <ul>
