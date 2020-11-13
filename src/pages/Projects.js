@@ -4,7 +4,8 @@ import LearnCenter from '../comp-style/imgs/learn-center.png';
 import Wedding from '../comp-style/imgs/wedding.png';
 import Events from '../comp-style/imgs/events.png';
 import ShopInven from '../comp-style/imgs/shop-inven.png';
-import Solvay from '../comp-style/imgs/solvayPage.png'
+import Solvay from '../comp-style/imgs/solvayPage.png';
+import VN from '../comp-style/imgs/vnbikers.png';
 
 const Projects = () => {
     return (
@@ -14,6 +15,28 @@ const Projects = () => {
 <div className="seperator"></div> 
                 <h2>Projects</h2>
 <div className="seperator"></div> 
+
+<div id="project_6" className="project">
+                    <div className="proj proj-info">
+                        <p className="proj-title">VN Bikers</p>
+                        <p className="proj-desc">A site dedicated to what once was. Using React with styled components, the goal of this was to concentrate on UI/UX and file structure. </p>
+                        <div className="tech-list">
+                            <p className="tech-title">Tech</p>
+                                <ul>
+                                    <li>Javascript</li>
+                                    <li>React</li>
+                                </ul>
+                        </div>
+                        <button className="view-btn"><a href={"vnbikers.netlify.app"}>View Project</a></button>
+                    </div>
+                    <div className="proj proj-img">
+                        <div className="img-frame">
+                            <img src={VN} alt="Project screenshot"/>
+                        </div>
+                    </div>
+                </div>
+
+<div className="seperator"></div>
 
                 <div id="project_5" className="project">
                     <div className="proj proj-img">
