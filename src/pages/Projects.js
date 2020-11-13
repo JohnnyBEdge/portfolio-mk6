@@ -28,7 +28,7 @@ const Projects = () => {
                                     <li>FormSpree</li>
                                 </ul>
                         </div>
-                        <button className="view-btn"><a href={"https://www.vnbikers.netlify.app"}>View Project</a></button>
+                        <button className="view-btn"><a href={"https://vnbikers.netlify.app/"}>View Project</a></button>
                     </div>
                     <div className="proj proj-img">
                         <div className="img-frame">
