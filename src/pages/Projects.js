@@ -19,12 +19,13 @@ const Projects = () => {
 <div id="project_6" className="project">
                     <div className="proj proj-info">
                         <p className="proj-title">VN Bikers</p>
-                        <p className="proj-desc">A site dedicated to what once was. Using React with styled components, the goal of this was to concentrate on UI/UX and file structure. </p>
+                        <p className="proj-desc">A site dedicated to what once was. Using React with styled components and FormSpree, the goal of this was to concentrate on UI/UX and file structure. </p>
                         <div className="tech-list">
                             <p className="tech-title">Tech</p>
                                 <ul>
                                     <li>Javascript</li>
                                     <li>React</li>
+                                    <li>FormSpree</li>
                                 </ul>
                         </div>
                         <button className="view-btn"><a href={"https://www.vnbikers.netlify.app"}>View Project</a></button>
